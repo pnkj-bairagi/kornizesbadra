@@ -14,8 +14,8 @@
             <li class="menu-item-has-children">
                 <a href="javascript:void(0);"><i class="list-icon feather feather-pocket"></i> <span class="hide-menu">Products</span></a>
                 <ul class="list-unstyled sub-menu">
-                    <li><a href="addproducts.html">Add Products</a></li>
-                    <li><a href="updateproducts.html">Update Products</a></li>
+                    <li><a href="{{route('products.create')}}">Add Products</a></li>
+                    <li><a href="{{route('products.index')}}">Products List</a></li>
                 </ul>
             </li>
             <li class="">
